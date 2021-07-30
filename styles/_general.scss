@@ -1,0 +1,23 @@
+@import "./fonts";
+@import "./colors";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: $Spartan;
+  font-weight: 500;
+}
+
+section {
+  margin-top: 2em;
+}
