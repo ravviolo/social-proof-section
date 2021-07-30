@@ -9,19 +9,21 @@
 
 html {
   font-size: 15px;
-  height: 100%;
 }
 
 body {
-  min-height: 100%;
   font-family: $Spartan;
   font-weight: 500;
 }
-
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 section {
   margin-top: 2em;
 }
 p {
-  font-size: 0.9rem;
   line-height: 1.5;
 }
