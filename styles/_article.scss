@@ -1,0 +1,22 @@
+@import "./colors";
+
+.proof {
+  padding: 5em 1em 5em;
+  background-color: #fff;
+
+  .proof__header {
+    text-align: center;
+  }
+
+  h1 {
+    padding: 0 1em;
+    margin-bottom: 1em;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 700;
+    color: $magenta-dark;
+  }
+  p {
+    color: $magenta-gray-dark;
+  }
+}
