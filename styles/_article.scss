@@ -3,6 +3,7 @@
 .proof {
   padding: 5em 1em 5em;
   background-color: #fff;
+  position: relative;
 
   .proof__header {
     text-align: center;
@@ -18,5 +19,18 @@
   }
   .header__description {
     color: $magenta-gray-dark;
+  }
+
+  &::before {
+    content: url("../images/bg-pattern-top-mobile.svg");
+    position: absolute;
+    top: 0;
+  }
+  &::after {
+    content: url("../images/bg-pattern-bottom-mobile.svg");
+    position: absolute;
+    bottom: -50%;
+    right: 0;
+    z-index: -1;
   }
 }

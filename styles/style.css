@@ -42,6 +42,7 @@ p {
 .proof {
   padding: 5em 1em 5em;
   background-color: #fff;
+  position: relative;
 }
 
 .proof .proof__header {
@@ -59,6 +60,20 @@ p {
 
 .proof .header__description {
   color: #937b92;
+}
+
+.proof::before {
+  content: url("../images/bg-pattern-top-mobile.svg");
+  position: absolute;
+  top: 0;
+}
+
+.proof::after {
+  content: url("../images/bg-pattern-bottom-mobile.svg");
+  position: absolute;
+  bottom: -50%;
+  right: 0;
+  z-index: -1;
 }
 
 .rating {
